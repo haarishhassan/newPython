@@ -14,7 +14,7 @@ with st.sidebar:
     st.markdown("<h2 style='font-weight:bold; font-family:Verdana;font-size:40px;'>code_<span style='color:red;'>RED</span></h2>",unsafe_allow_html=True)
 
     data = option_menu(
-        menu_title="Python Tutorial",  
+        menu_title="Python Tutorial new",  
         options=["Python Introduction", "Variables", "Operators", "Data Types","String Method","Decision Making","Looping","Oops Concept","Python DSA","Python MYSQL","pratice","Quiz"]
     )
 
@@ -761,3 +761,4 @@ elif data == "Quiz":
             for key in list(st.session_state.keys()):
                 del st.session_state[key]
             st.rerun()
+

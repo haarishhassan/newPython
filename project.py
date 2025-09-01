@@ -55,9 +55,6 @@ if data == "Python Introduction":
     st.write("To check if you have python installed on a Linux or Mac, then on linux open the command line or on Mac open the Terminal and type:")
     st.write(r"`python --version`")
     st.write("If you find that you do not have Python installed on your computer, then you can download it for free from the following website: https://www.python.org/")
-    with open(r"c:\Users\Fhaarishhassan\Downloads\Untitled design.mp4", "rb") as video_file:
-        video_bytes = video_file.read()
-    st.video(video_bytes)
     
 elif data == "Variables":
     st.title("Python Variables")
@@ -761,4 +758,5 @@ elif data == "Quiz":
             for key in list(st.session_state.keys()):
                 del st.session_state[key]
             st.rerun()
+
 
